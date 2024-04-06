@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+/* 
+tamanho fonts: 20 e 25
+*/
+:root {
+    --fonte1: "Inter", sans-serif
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--fonte1);
+}
+
+/* MENU HEADER */
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+}
+
+body {
+    padding-top: 120px; 
+}
+
+.menu-inicial {
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo {
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: underline #4CAF4F;
+}
+
+.menu-inicial > a,p {
+    padding: 18px;
+    text-decoration: none;
+    color: #4D4D4D;
+    font-size: 20px;
+}
+
+#registro {
+    background-color: #4CAF4F;
+    border-radius: 7px;
+    color: whitesmoke;
+}
+
+nav > a:hover {
+    text-decoration: underline #4CAF4F;
+    transition: .5s;
+}
+
+#registro:hover {
+    text-decoration: underline #e9ebee;
+}
+
+/* MAIN CONTENT */
+#first-box {
+    display: flex;
+    background-color: #e9ebee;
+    height: 450px;
+    align-items: center; /* Align items vertically */
+    justify-content: space-around;
+}
+
+#foto-principal {
+    border-radius: 7px; 
+}
+
+#first-box > p, #first-box > h1 {
+    font-size: 25px;
+}
+
+#color-text-green {
+    color: #237D31;
+    font-weight: bold;
+    padding: 18px;
+}
+
+#foto-principal {
+    height: 370px;
+    width: 370px;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.tech {
+    display: flex;
+    justify-content: center;
+}
+
+
