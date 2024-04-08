@@ -20,9 +20,8 @@
     .lista-menu li > a {
         display: block;
         color: white;
-        border: 1px solid rgba(0, 0, 0, 0.199);
         margin: 5px;
-        padding: 5px;
+        padding: 7px;
         text-decoration: none;
         
 
@@ -59,7 +58,7 @@
     }
 
     .checkbox:checked ~ .lista-menu {
-        height: 240px;
+        height: 260px;
         visibility: visible;
         overflow-y: auto;
 
@@ -80,7 +79,7 @@
 
     #first-box {
         display: block;
-        height: 550px;
+        height: 590px;
     }
 
     #first-box > .content {
