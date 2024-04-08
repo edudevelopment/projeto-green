@@ -16,6 +16,8 @@ tamanho fonts: 20 e 25
 
 
 header {
+    display: flex;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
@@ -35,6 +37,7 @@ body {
 }
 
 #logo {
+    margin-top: 25px;
     font-size: 25px;
     font-weight: bold;
     text-decoration: underline #4CAF4F;
@@ -48,18 +51,37 @@ body {
 }
 
 #registro {
+    padding: 10px 20px 10px 20px;
     background-color: #4CAF4F;
     border-radius: 7px;
     color: whitesmoke;
 }
 
-nav > a:hover {
+.lista-menu > li > a{
+    text-decoration:none;
+    color: #4D4D4D;
+    font-size: 20px;
+}
+
+.lista-menu {
+    gap: 15px;
+    padding: 18px;
+    font-size: 20px;
+    display: flex;
+    list-style: none; 
+}
+
+li:hover {
     text-decoration: underline #4CAF4F;
     transition: .5s;
 }
 
 #registro:hover {
     text-decoration: underline #e9ebee;
+}
+
+.label-menu, .checkbox {
+    display: none;
 }
 
 /* MAIN CONTENT */
@@ -98,6 +120,7 @@ h2 {
 .tech {
     display: flex;
     justify-content: center;
+    
 }
 
 

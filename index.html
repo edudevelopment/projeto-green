@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <header>
+        <p id="logo">DevEd</p>
         <nav class="menu-inicial">
-            <p id="logo">DevEd</p>
-            <a href="#">Home</a>
-            <a href="#">Features</a>
-            <a href="#">Community</a>
-            <a href="#">Blog</a>
-            <a href="https://github.com/edudevelopment" id="registro" target="_blank">GitHub</a>
+            <input type="checkbox" id="checkbox" class="checkbox">
+            <label for="checkbox" class="label-menu">Menu <span class="hamburger"></span></label>
+            <ul class="lista-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">Community</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="https://github.com/edudevelopment">GitHub</a></li>
+            </ul>
         </nav>
     </header>
     <main>
