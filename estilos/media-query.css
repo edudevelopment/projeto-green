@@ -59,7 +59,7 @@
     }
 
     .checkbox:checked ~ .lista-menu {
-        height: 210px;
+        height: 240px;
         visibility: visible;
         overflow-y: auto;
 
